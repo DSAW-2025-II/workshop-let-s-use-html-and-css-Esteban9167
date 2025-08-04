@@ -1,0 +1,92 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    /* Centrado horizontal */
+    align-items: flex-start;
+    /* Centrado solo horizontal, arriba */
+    background-color: #F3E5D8;
+    padding-top: 20px;
+    /* 🔹 Espacio superior */
+    font-family: 'Outfit', sans-serif;
+}
+
+.container {
+    background-color: white;
+    width: 50%;
+    max-width: 800px;
+    min-width: 320px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+}
+
+/* Imagen dentro del container */
+.container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 12px 12px 0 0;
+    /* 🔹 Solo arriba redondeada */
+    object-fit: cover;
+    margin-bottom: 20px;
+    /* 🔹 Espacio debajo de la imagen */
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Young Serif', serif;
+    /* Para títulos */
+}
+
+.red-container {
+    padding-top: 1%;
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+    padding-bottom: 1%;
+    width: 100%;
+    height: 100%;
+    background-color: #FFF7FC;
+    border-radius: 12px;
+    /* 🔹 Redondeado completo para que quede dentro de la tarjeta */
+    box-sizing: border-box
+}
+
+.red-container h4 {
+    color: #5C3345;
+    margin-top: 0;
+}
+
+.white-container {
+    margin: 1%;
+    border-bottom: 2px solid #F7F7F7;
+}
+
+.white-container h2 {
+    color: #7F564C;
+    margin-top: 0;
+}
+
+table {
+width: 100%;
+    border-collapse: collapse;
+}
+
+table td {
+    color: #7F564C;
+    text-align: left;
+    padding: 12px 8px;         
+    border-bottom: 1px solid #F0F0F0; 
+
+}
+
+table tr:last-child td {
+    border-bottom: none;      
+}
